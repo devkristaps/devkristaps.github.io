@@ -1,34 +1,26 @@
-:root {
-    --nav-background-color: gray;
-    --nav-text-color: white;
+/* Header section background */
+.bgimage {
+  height: 100vh;
+  background: url('./media/pexels-header-bg.jpg');
+  background-size: cover;
+  position: relative;
 }
 
-* {
-    margin: 0;
+/* Header section text */
+.hero_title {
+  font-size: 4.5rem;
 }
 
-header {
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.hero_desc {
+  font-size: 2rem;
 }
 
-.nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: var(--nav-background-color);
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-.nav-bar li {
-    display: inline-block;
-    padding: 10px 15px;
-    list-style: none;
-}
-
-.nav-bar a {
-    color: var(--nav-text-color);
-    text-decoration: none;
-}
