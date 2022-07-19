@@ -31,10 +31,7 @@
   cursor: pointer;
 }
 
-.fa-twitter:hover {
-  color: #00c3e6;
-}
-.fab {
+.fa-brands {
   color: #000000;
 }
 /* footer styling */
