@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+body {
+  margin: 0;
+  background-image: url("./media/pexels-header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+nav {
+  background-color: rgba(68, 68, 68);
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav h2 {
+  float: left;
+}
+
+nav li {
+  float: right;
+  list-style: none;
+  padding-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.about-section {
+  background-color: rgba(68, 68, 68, 0.9);
+  margin: 30px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.projects-section {
+  background-color: rgba(68, 68, 68, 0.9);
+  margin: 30px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgba(68, 68, 68);
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
